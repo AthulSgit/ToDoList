@@ -367,23 +367,6 @@ The following screenshots can be included as part of the project submission:
 
 ---
 
-# Security
-
-The MongoDB Atlas connection string containing the database password is stored in the `.env` file.
-
-The `.env` file should **not** be uploaded to GitHub or included in the submitted project files if it contains real credentials.
-
-Example `.gitignore`:
-
-```gitignore
-node_modules/
-.env
-```
-
-For submission, only the connection string format with placeholder values should be shown.
-
----
-
 # Conclusion
 
 This project demonstrates the development of a complete MERN-based To-Do List application. The React frontend communicates with an Express.js REST API, which uses Mongoose to store and manage task data in MongoDB Atlas. Users can add, view, edit, complete, and delete tasks without reloading the page.
