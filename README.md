@@ -1,16 +1,17 @@
+
 # MERN To-Do List Application
 
 A full-stack To-Do List web application developed using the **MERN stack** — MongoDB, Express.js, React.js, and Node.js.
 
 ## Technologies Used
 
-* **MongoDB Atlas** – Database
-* **Mongoose** – MongoDB object modeling
-* **Express.js** – Backend REST API
-* **Node.js** – Server-side runtime
-* **React.js** – Frontend user interface
-* **Vite** – React development environment
-* **CSS** – User interface styling
+- **MongoDB Atlas** – Database
+- **Mongoose** – MongoDB object modeling
+- **Express.js** – Backend REST API
+- **Node.js** – Server-side runtime
+- **React.js** – Frontend user interface
+- **Vite** – React development environment
+- **CSS** – User interface styling
 
 ---
 
@@ -42,16 +43,16 @@ todo-mern/
 
 ## Features
 
-* Add new tasks
-* View all tasks
-* Mark tasks as completed or incomplete
-* Edit task titles
-* Delete tasks
-* Data stored permanently in MongoDB Atlas
-* RESTful API using Express.js
-* React frontend connected to the backend
-* No page reload required for task operations
-* Responsive and user-friendly interface
+- Add new tasks
+- View all tasks
+- Mark tasks as completed or incomplete
+- Edit task titles
+- Delete tasks
+- Data stored permanently in MongoDB Atlas
+- RESTful API using Express.js
+- React frontend connected to the backend
+- No page reload required for task operations
+- Responsive and user-friendly interface
 
 ---
 
@@ -71,11 +72,11 @@ npm install
 
 The backend uses:
 
-* express
-* mongoose
-* cors
-* dotenv
-* nodemon
+- express
+- mongoose
+- cors
+- dotenv
+- nodemon
 
 ## 3. Configure MongoDB Atlas
 
@@ -89,8 +90,8 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.avze0jd.mongodb.net/todoD
 
 Replace:
 
-* `<username>` with the MongoDB Atlas database username
-* `<password>` with the MongoDB Atlas database password
+- `<username>` with the MongoDB Atlas database username
+- `<password>` with the MongoDB Atlas database password
 
 **Do not share or upload the real MongoDB connection string containing the password.**
 
@@ -164,12 +165,12 @@ http://localhost:5173
 
 The backend provides the following REST API endpoints.
 
-| Method | Endpoint         | Description    |
-| ------ | ---------------- | -------------- |
-| GET    | `/api/tasks`     | Get all tasks  |
-| POST   | `/api/tasks`     | Add a new task |
-| PUT    | `/api/tasks/:id` | Update a task  |
-| DELETE | `/api/tasks/:id` | Delete a task  |
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/tasks` | Get all tasks |
+| POST | `/api/tasks` | Add a new task |
+| PUT | `/api/tasks/:id` | Update a task |
+| DELETE | `/api/tasks/:id` | Delete a task |
 
 ## Example: Add a Task
 
@@ -227,11 +228,11 @@ The application uses a Mongoose `Task` schema.
 
 ### Fields
 
-| Field       | Type    | Description        |
-| ----------- | ------- | ------------------ |
-| `title`     | String  | Task description   |
-| `completed` | Boolean | Completion status  |
-| `createdAt` | Date    | Task creation time |
+| Field | Type | Description |
+|---|---|---|
+| `title` | String | Task description |
+| `completed` | Boolean | Completion status |
+| `createdAt` | Date | Task creation time |
 
 The `title` field is required.
 
@@ -347,12 +348,12 @@ The REST APIs can be tested using tools such as **Thunder Client** or **Postman*
 
 The following operations were tested:
 
-* Adding a task
-* Retrieving all tasks
-* Updating task completion status
-* Editing a task
-* Deleting a task
-* Storing task data in MongoDB Atlas
+- Adding a task
+- Retrieving all tasks
+- Updating task completion status
+- Editing a task
+- Deleting a task
+- Storing task data in MongoDB Atlas
 
 ---
 
